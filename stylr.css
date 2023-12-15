@@ -1,0 +1,96 @@
+
+body{
+    margin: 0px;
+}
+
+.con{
+    border: 3px solid black;
+    display: grid;
+    grid-template-areas:
+        "H H H H"
+        "S C1 C2 C3"
+        "F F F F"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 12cm  200px;
+    gap: 5px;
+    height: 550px;
+    margin: 0px;
+  
+
+
+}
+
+.i {
+
+    border:2px solid black ;
+
+
+}
+.i1{
+    grid-area: H;
+    height: 40px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+.i6{
+    grid-area: F;
+    height: 40px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+.i2{
+    grid-area: S;
+    width: 200px;
+    height:77vh;
+    background-color: #333;
+    text-align: center;
+    color: white;
+  
+}
+.i3{
+    grid-area: C1;
+    height: 100px;
+    background-color:  #bdb4b4;
+    text-align: center;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+ 
+}
+.i4{
+    grid-area: C2;
+    height: 100px;
+    background-color:  #bdb4b4;
+    text-align: center;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.i5{
+    grid-area: C3;
+    height: 100px;
+    background-color: #bdb4b4;
+    text-align: center;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.a{
+font-size: 10px;
+
+
+}
+
+
+
+
+
+
+
